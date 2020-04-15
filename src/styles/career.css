@@ -2,6 +2,7 @@ body {
     background-color: rgb(140, 23, 23);
     display: flex;
     flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .nav_bar {
@@ -45,13 +46,15 @@ h2 {
 }
 .pageHeader {
     text-align: center;
-    font-family: 'Rock Salt'cursive;
+    font-family: 'Rock Salt', cursive;
     font-size: 40px;
 }
 
 .standupPic {
     height: 330px;
     width: auto;
+    position: relative;
+    left: 90px;
 }
 
 .dripPic {
@@ -92,7 +95,6 @@ h2 {
     margin-right: 30%;
     position: relative;
     bottom: 280px;
-    border: 1px solid rgb(255, 188, 60);
 }
 
 .underQuote {
@@ -105,6 +107,7 @@ h2 {
     width: auto;
     position: relative;
     bottom: 80px;
+    left: 90px;
 }
 
 .introTitle {
