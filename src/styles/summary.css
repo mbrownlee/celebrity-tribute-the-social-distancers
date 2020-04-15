@@ -4,6 +4,7 @@ body {
     flex-direction: column;
 }
 
+
 .nav_bar {
     display: flex;
     background-color: rgb(255, 188, 60);
@@ -14,10 +15,12 @@ body {
     border: 1px solid rgb(44, 48, 46);
 }
 
+
 .logo {
     height: 80px;
     width: auto;
 }
+
 
 .navbar_links {
     display: flex;
@@ -27,6 +30,7 @@ body {
     justify-content: space-evenly;
 }
 
+
 hr {
     border-top: 4px solid rgb(44, 48, 46);
     border-bottom: transparent;
@@ -34,13 +38,6 @@ hr {
     border-right: transparent;
 }
 
-.dripPic {
-    height: 430px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .socialmedia {
     display: flex;
@@ -48,18 +45,118 @@ hr {
     justify-content: space-around;
 }
 
+
 .twitter {
     height: 50px;
     width: auto;
 }
+
 
 .facebook {
     height: 55px;
     width: auto;
 }
 
+
 .instagram {
     height: 45px;
     width: auto;
 }
 
+
+
+
+
+.heading_box {
+    text-align: center;
+}
+
+
+.mork_pic {
+    border-radius: 25px;
+    height: 250px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.columns {
+
+}
+
+
+.column_1 {
+
+}
+
+
+.hook_image {
+    border-radius: 25px;
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.p_1 {
+
+}
+
+
+.column_2 {
+
+}
+
+
+.aladdin_image {
+    border-radius: 25px;
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.p_2 {
+
+}
+
+
+.column_3 {
+
+}
+
+
+.doubtfire_image {
+    border-radius: 25px;
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.p_3 {
+
+}
+
+
+.collage_pic {
+    border-radius: 25px;
+    height: 250px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footing_box {
+    text-align: center;
+}
