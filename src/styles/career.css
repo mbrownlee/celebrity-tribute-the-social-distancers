@@ -35,11 +35,11 @@ hr {
 }
 
 .dripPic {
-    height: 430px;
+    height: 200px;
     width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: fixed;
+    margin-top: 75px;
 }
 
 .socialmedia {
@@ -61,5 +61,106 @@ hr {
 .instagram {
     height: 45px;
     width: auto;
+}
+
+h1 {
+    font-family: rock salt;
+    font-size: 40px;
+}
+
+
+.quote {
+    font-family: quicksand;
+    text-emphasis: bold;
+    border: 1px;
+    border-color: rgb(255, 188, 60);
+}
+
+.personalLife {
+    font-family: quicksand;
+    font-size: 18px;
+}
+
+.personalLife__childhoodbox {
+    display: block;
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+.personalLife__childhood {
+    /*
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 225px;
+    padding: 10px;
+    */
+    float: left;
+    position: relative;
+}
+
+.personalLife__adulthoodbox {
+    display: block;
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-bottom: 12%;
+}
+
+.personalLife__youngpic {
+    height: auto;
+    float: right;
+    width: 200px;
+    padding: 10px;
+} 
+
+.personalLife__strugglebox {
+    display: block;
+    margin-left: 12%;
+    margin-right: 15%;
+}
+.personalLife__adulthood {
+    /* height: 300px;
+    margin-left: 25px;
+    margin-right: 225px;
+    margin-bottom: 100px;
+    padding: 10px; */
+    float: right;
+    position: relative;
+}
+
+.personalLife__sonpic {
+    
+    height: auto;
+    float: left;
+    width: 350px;
+    padding: 10px; 
+  
+}
+
+.personalLife__struggles {
+    /*
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 225px;
+    margin-bottom: 100px;
+    padding: 10px; */
+    float: right;
+    position: relative;
+}
+
+.personalLife__weddingpic {
+    height: auto;
+    float: left;
+    width: 275px;
+    padding: 10px;
+}
+
+.personalLife__hobbypic {
+    height: 350px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 
