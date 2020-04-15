@@ -2,6 +2,7 @@ body {
     background-color: rgb(140, 23, 23);
     display: flex;
     flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -66,29 +67,41 @@ hr {
 
 
 
-
 .heading_box {
     text-align: center;
 }
 
 
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+}
+
+
+.existence {
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+}
+
+
 .mork_pic {
-    border-radius: 25px;
     height: 250px;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 
-/* .mains {
+main {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
 
-} */
 
-
-.main_1 {
+.hook {
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     padding: 100px;
 }
@@ -97,72 +110,81 @@ hr {
 .hook_image {
     flex-basis: 20%;
     padding: 10px;
-    border-radius: 25px;
     height: 200px;
     width: auto;
-    display: flex;
+    float:left;
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .p_1 {
- padding: 20px;
+font-family: 'Quicksand', sans-serif;
+ padding: 10px;
+ /* float:right;
+ position: relative; */
 }
 
 
-.main_2 {
+.aladdin {
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     padding: 100px;
 }
 
 
 .aladdin_image {
-    border-radius: 25px;
     height: 150px;
     width: auto;
-    display: block;
+    float: right;
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .p_2 {
-    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    /* float:left;
+    position: relative; */
 }
 
 
-.main_3 {
+.doubtfire {
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     padding: 100px;
 }
 
 
 .doubtfire_image {
-    border-radius: 25px;
     height: 150px;
     width: auto;
-    display: block;
+    float:left;
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .p_3 {
-    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    /* float: right; */
+    /* position: relative; */
 }
 
 
 .collage_pic {
-    border-radius: 25px;
     height: 250px;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 
 .footing_box {
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
