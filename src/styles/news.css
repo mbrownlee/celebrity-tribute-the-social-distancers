@@ -2,6 +2,7 @@ body {
     background-color: rgb(140, 23, 23);
     display: flex;
     flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .nav_bar {
@@ -35,11 +36,10 @@ hr {
 }
 
 .dripPic {
-    height: 430px;
+    height: 200px;
     width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: fixed;
 }
 
 .socialmedia {
@@ -63,3 +63,67 @@ hr {
     width: auto;
 }
 
+.news-title {
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+}
+
+.youTube-story {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.artAuction-story {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; 
+}
+
+.fashion-story {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artAuction-story__picContainer {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.artAuction-story__pic {
+    height: auto;
+    width: 40%;
+}
+
+
+.fashion-story__picThree {
+    height: auto;
+    width: 32%;
+    display: inline-block;
+}
+
+.fashion-story__picTwo {
+    height: auto;
+    width: 32%;
+    display: inline-block;
+}
+
+.fashion-story__picOne {
+    height: auto;
+    width: 32%;
+    display: inline-block;
+}
+
+.quoteArea {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.quote {
+    flex-basis: 60%;
+}
