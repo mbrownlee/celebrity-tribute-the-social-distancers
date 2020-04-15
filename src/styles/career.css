@@ -27,19 +27,41 @@ body {
     justify-content: space-evenly;
 }
 
+.headerItem {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
 hr {
     border-top: 4px solid rgb(44, 48, 46);
     border-bottom: transparent;
     border-left: transparent;
     border-right: transparent;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 32px;
+}
+.pageHeader {
+    text-align: center;
+    font-family: 'Rock Salt'cursive;
+    font-size: 40px;
+}
+
+.standupPic {
+    height: 330px;
+    width: auto;
 }
 
 .dripPic {
-    height: 430px;
+    height: 330px;
     width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: fixed;
+    left: 1000px;
+    right: 0;
+    top: 100px;
+    z-index: 2;
 }
 
 .socialmedia {
@@ -63,3 +85,97 @@ hr {
     width: auto;
 }
 
+.quoteText {
+    font-size: 24px;
+    display: block;
+    margin-left: 42%;
+    margin-right: 30%;
+    position: relative;
+    bottom: 280px;
+    border: 1px solid rgb(255, 188, 60);
+}
+
+.underQuote {
+    position: relative;
+    bottom: 180px;
+}
+
+.tuxPhoto {
+    height: 320px;
+    width: auto;
+    position: relative;
+    bottom: 80px;
+}
+
+.introTitle {
+    text-align: left;
+    position: relative;
+    bottom: 500px;
+    left: 50px;
+}
+
+.introList {
+    list-style: circle;
+    font-size: 20px;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    bottom: 500px;
+}
+
+.underIntro {
+    position: relative;
+    bottom: 470px;
+    z-index: 3;
+}
+
+.talentsTitle {
+    text-align: right;
+    position: relative;
+    bottom: 450px;
+    right: 190px;
+    z-index: 3;
+}
+
+.talentsPicture {
+    position: relative;
+    left: 800px;
+    bottom: 770px;
+    z-index: 3;
+    height: 400px;
+    width: auto;
+}
+
+.talentsText {
+    display: block;
+    margin-left: 10%;
+    margin-right: 65%;
+    position: relative;
+    bottom: 400px;
+    font-size: 20px;
+}
+
+.talentsList {
+    font-size: 20px;
+    display: block;
+    margin-left: 10%;
+    margin-right: 65%;
+    position: relative;
+    bottom: 410px;
+    font-weight: bold;
+}
+
+.talentsText2 {
+    display: block;
+    margin-left: 10%;
+    margin-right: 65%;
+    position: relative;
+    bottom: 410px;
+    font-size: 20px;
+}
+
+.underTalents {
+    position: relative;
+    bottom: 740px;
+}
